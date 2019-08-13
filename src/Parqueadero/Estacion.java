@@ -33,9 +33,9 @@ public class Estacion extends javax.swing.JFrame {
     private void initComponents() {
 
         jScrollPane1 = new javax.swing.JScrollPane();
-        lisPila = new javax.swing.JList<>();
+        lisPila = new javax.swing.JList<String>();
         jScrollPane2 = new javax.swing.JScrollPane();
-        lisCola = new javax.swing.JList<>();
+        lisCola = new javax.swing.JList<String>();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         btnApilar = new javax.swing.JButton();
@@ -67,11 +67,11 @@ public class Estacion extends javax.swing.JFrame {
         getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(463, 56, 360, 450));
 
         jLabel2.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
-        jLabel2.setText("ESTACIONAMIENTO EN PILA");
+        jLabel2.setText("PILA");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 350, 28));
 
         jLabel3.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
-        jLabel3.setText("ESTACIONAMIENTO EN COLA");
+        jLabel3.setText("COLA");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 20, 350, 28));
 
         btnApilar.setText("APILAR");
